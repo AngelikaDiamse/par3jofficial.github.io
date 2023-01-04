@@ -1,0 +1,289 @@
+<style>
+	* {
+		margin: 0;
+		padding: 0;
+}
+
+body
+{
+background-image:url("contact bg.jpg");	
+background-repeat: no-repeat;
+background-size: 100%;
+}
+
+
+.navbar 
+{
+display: flex;
+align-items: center;
+justify-content: right;
+top: 0;
+cursor: pointer;
+position: absolute;
+width: 100%;
+height: 110px;
+left: 0px;
+top: 1px;
+}
+
+.background 
+{
+background: white;
+background-blend-mode: darken;
+background-size: cover;
+}
+
+.nav-list 
+{
+width: 50%;
+display: flex;
+align-items: center;
+font-family: 'WorkSans';
+font-size: 16px;
+}
+
+.logo 
+{
+display: flex;
+justify-content: center;
+align-items: center;
+position: absolute;
+width: 50px;
+height: 50px;
+left: 30px;
+top: 8px;
+}
+
+.logo img	 
+{
+width: 175px;
+Height: 150%;
+	padding-right: 230px;
+		padding-left: 18px;
+		padding-bottom: 5px;
+}
+
+	.nav-list li {
+		list-style: none;
+		padding: 26px 30px;
+	}
+
+	.nav-list li a {
+		text-decoration: none;
+		font-family: WorkSans;
+		color: black;
+	}
+
+	.nav-list li a:hover {
+		color: #044C14;
+	}
+
+	.rightnav {
+		width: 30%;
+		text-align: right;
+	}
+	
+.getintouch
+{
+padding:5%;
+width:30%;
+}
+
+.text-big
+{
+position: absolute;
+padding-left: 15%;
+font-family: NewAthletic;
+font-style: normal;
+font-weight: 400;
+font-size:700%;
+text-align: center;
+color: #FCFCFC;
+}
+
+.google-maps1
+{
+position: absolute;
+width: 40%;
+height: 15%;
+right: 50%;
+top: 47%;
+border-radius: 8px;
+}
+
+.google-maps
+{
+position: absolute;
+width: 40%;
+height: 10%;
+right: 55%;
+top: 43%;
+}
+
+.gmaps
+{
+position: absolute;
+padding-left:35%;
+font-family: WorkSans;
+font-style: normal;
+font-size: 15px;
+text-align: center;
+color: white;
+}
+
+.container1
+{
+position: absolute;
+width: 40%;
+height: 10%;
+left: 50%;
+top: 43%;
+background: white;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 8px;
+}
+
+.contact
+{
+color: gray;
+margin-bottom: -17px;
+text-align: center;
+font-family: 'WorkSans';
+font-style: normal;
+font-size: 15px;
+}
+
+.number
+{
+color: black;
+text-align: center;
+font-family: 'WorkSans';
+font-style: normal;
+font-size: 18px;
+}
+
+.container2
+{
+position: absolute;
+width: 40%;
+height: 10%;
+left: 50%;
+top: 55%;
+background: white;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 8px;
+}
+
+.address
+{
+color: gray;
+margin-bottom: -18px;
+text-align: center;
+font-family: 'WorkSans';
+font-style: normal;
+font-size: 15px;
+}
+
+.address1
+{
+color: black;
+text-align: center;
+font-family: 'WorkSans';
+font-style: normal;
+font-size: 18px;
+}
+
+.container3
+{
+position: absolute;
+width: 40%;
+height: 12%;
+left: 50%;
+top: 67%;
+background: white;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 8px;
+}
+
+.store
+{
+color: gray;
+margin-bottom: -13px;
+text-align: center;
+font-family: 'WorkSans';
+font-style: normal;
+font-size: 15px;
+}
+
+.hours
+{
+color: black;
+padding-left: 10%;
+padding-right: 10%;
+text-align: center; 
+font-family: 'WorkSans';
+font-style: normal;
+font-size: 15px;
+}
+
+.container4
+{
+position: absolute;
+width: 40%;
+height: 12%;
+left: 50%;
+top: 81%;
+background: white;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 8px;
+}
+
+.facebook
+{
+color: gray;
+margin-bottom: -10px;
+text-align: center;
+font-family: 'WorkSans';
+font-style: normal;
+font-size: 15px;
+}
+
+.facebook1
+{
+color: black;
+text-align: center;
+font-family: 'WorkSans';
+font-style: normal;
+font-size: 18px;
+}
+
+.copyright-container
+{
+position: absolute;
+width: 100%;
+height: 10%;
+top: 105%;
+left: -1px;
+background: #040404;
+align-items:center;
+}
+
+.copyright
+{
+color: white;
+padding: 1%;
+text-align: left;
+font-family: 'WorkSans';
+font-style: normal;
+font-size: 12px;
+}
+
+.facebook1 a:link
+{
+text-decoration: none;
+color: black;
+}
+
+.facebook1 a:hover 
+{
+color: green;

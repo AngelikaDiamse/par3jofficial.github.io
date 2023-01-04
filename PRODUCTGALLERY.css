@@ -1,0 +1,404 @@
+
+
+	body {
+		background-color: black;
+	}
+
+	.navbar {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		position: sticky;
+		top: 0;
+		cursor: pointer;
+		width: 100%;
+		padding: 18px;
+	}
+
+	.background {
+		background: white;
+		background-blend-mode: darken;
+		background-size: cover;
+	}
+
+	.nav-list {
+		width: 100%;
+		display: flex;
+		align-items: center;
+	}
+
+	.logo {
+		display: flex;
+		justify-content: center;
+		align-items: right;
+		width: auto;
+		height: 80px;
+		padding-right: 230px;
+		padding-left: 18px;
+		padding-bottom: 8px;
+	}
+
+	.PAR3J_LOGO{
+		width: 50px;
+		height: 50px;
+	}
+
+	.nav-list li {
+		list-style: none;
+		padding: 26px 30px;
+	}
+
+	.nav-list li a {
+		text-decoration: none;
+		font-family: WorkSans;
+		color: black;
+	}
+
+	.nav-list li a:hover {
+		color: #044C14;
+	}
+
+	.rightnav {
+		width: 30%;
+		text-align: right;
+	}
+
+	
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background {
+        background: white;
+        background-blend-mode: darken;
+        background-size: cover;
+    }
+	
+section{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 40px auto;
+}
+
+section ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+section ul li{
+    list-style: none;
+    background: #eee;
+    padding: 12px 20px;
+    margin: 5px;
+    letter-spacing: 1px;
+}
+
+section ul li.active{
+    background: #03a9f4;
+    color: #fff;
+}
+
+.products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.products .itemBox{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+    display: block;
+}
+
+.products .itemBox img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.BIGMAX_AQUATOUR_img{
+	width:100%;
+	height:100%;
+	float:center;
+}
+
+.BIGMAX_AQUATOUR2_img{
+	width:100%;
+	height:100%;
+	float:center;
+}
+
+.CALLAWAY1_img{
+	width:100%;
+	height:100%;
+	float:center;
+}
+
+.CALLAWAY2_img{
+	width:100%;
+	height:100%;
+	float:center;
+}
+
+.CALLAWAY3_img{
+	width:100%;
+	height:100%;
+	float:center;
+}
+
+.JLINDEBERG_img{
+	width:100%;
+	height:100%;
+	float:center;
+}
+
+.PEARLYGATES_img{
+	width:100%;
+	height:100%;
+	float:center;
+}
+
+.PINGHOOFER1_img{
+	width:100%;
+	height:100%;
+	float:center;
+}
+
+.PINGHOOFER2_img{
+	width:100%;
+	height:100%;
+	float:center;
+}
+
+.PINGHOOFER3_img{
+	width:100%;
+	height:100%;
+	float:center;
+}
+
+.TAYLORMADE1_img{
+	width:100%;
+	height:100%;
+	float:center;
+}
+
+.TAYLORMADE2_img{
+	width:100%;
+	height:100%;
+	float:center;
+}
+
+.USKIDS1_img{
+	width:100%;
+	height:100%;
+	float:center;
+}
+
+.USKIDS2_img{
+	width:100%;
+	height:100%;
+	float:center;
+}
+
+.USKIDS3_img{
+	width:100%;
+	height:100%;
+	float:center;
+}
+
+.CALLAWAY4_img{
+	width:100%;
+	height:100%;
+	float:center;
+}
+
+.CALLAWAY5_img{
+	width:100%;
+	height:100%;
+	float:center;
+}
+
+.EMOJIBALLS_img{
+	width:100%;
+	height:100%;
+	float:center;
+}
+
+.SRIXON1_img{
+	width:100%;
+	height:100%;
+	float:center;
+}
+
+.SRIXON2_img{
+	width:100%;
+	height:100%;
+	float:center;
+}
+
+.PINGG425_img{
+	width:100%;
+	height:100%;
+	float:center;
+}
+
+.PINGGLIDE1_img{
+	width:100%;
+	height:100%;
+	float:center;
+}
+
+.PINGGLIDE2_img{
+	width:100%;
+	height:100%;
+	float:center;
+}
+
+.TAYLORMADE_img{
+	width:100%;
+	height:100%;
+	float:center;
+}
+
+.DYNAMICGOLD_img{
+	width:100%;
+	height:100%;
+	float:center;
+}
+
+.FUJIKURA_img{
+	width:100%;
+	height:100%;
+	float:center;
+}
+
+.MITSUBUISHI_img{
+	width:100%;
+	height:100%;
+	float:center;
+}
+.NSPROZELOS_img{
+	width:100%;
+	height:100%;
+	float:center;
+}
+
+.TOURAD_img{
+	width:100%;
+	height:100%;
+	float:center;
+}
+
+.BETTINARDI_img{
+	width:100%;
+	height:100%;
+	float:center;
+}
+
+.CALLAWAYPUTTER_img{
+	width:100%;
+	height:100%;
+	float:center;
+}
+
+.EVNROLL_img{
+	width:100%;
+	height:100%;
+	float:center;
+}
+
+.HONMA_img{
+	width:100%;
+	height:100%;
+	float:center;
+}
+
+.PINGFETCH_img{
+	width:100%;
+	height:100%;
+	float:center;
+}
+
+.UMBRELLA_img{
+	width:100%;
+	height:100%;
+	float:center;
+}
+
+.img-area{
+	text-align: center;
+	color: white;
+	position: absolute;
+	overflow:hidden;
+}
+
+.img-area{
+	width: 100%;
+	height: 100%;
+}
+
+.img-text,
+.img-area:after{
+	width:100%;
+	position: absolute;
+	left: 0;
+}
+.img-area:after{
+	content: '';
+	height: 100%;
+	top: 0; 
+	transition: .5s;
+}
+.img-area:hover:after{
+	background: linear-gradient(to bottom, rgba(4, 76, 20, 0) 0%, rgba(4, 76, 20, .25) 25%, rgba(4, 76, 20, .75) 75%, rgba(4, 76, 20, .95) 100%);
+}
+.img-text{
+	padding:5px;
+	margin-bottom: 10px;
+	bottom: 0;
+	z-index: 1;
+	transform: translateY(145px);
+	transition: all .5s cubic-bezier(.13,.52,.81,.91) 0s;
+}
+
+.img-text h3{
+	font-family: poppins;
+}
+
+.img-area:hover .img-text{
+	transform: translateY(0);
+}
+
+	.footer {
+	background-color: black;
+	height: 100px;
+	}
+	
+	.text-footer {
+		text-align: center;
+		padding: 30px 0;
+		padding-right: 800px;
+		font-family: WorkSans;
+		display: flex;
+		justify-content: center;
+		color: white;
+		margin: auto;
+	}

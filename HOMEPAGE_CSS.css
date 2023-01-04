@@ -1,0 +1,201 @@
+<style>
+	* {
+		margin: 0;
+		padding: 0;
+	}
+
+	.navbar {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		position: sticky;
+		top: 0;
+		cursor: pointer;
+	}
+
+	.background {
+		background: white;
+		background-blend-mode: darken;
+		background-size: cover;
+	}
+
+	.nav-list {
+		width: 100%;
+		display: flex;
+		align-items: center;
+	}
+
+	.logo {
+		display: flex;
+		justify-content: center;
+		align-items: right;
+		width: auto;
+		height: 80px;
+		padding-right: 240px;
+		padding-left: 10px;
+		padding-bottom: 10px;
+	}
+
+	.PAR3J_LOGO{
+		width: 50px;
+		height: 50px;
+	}
+
+	.nav-list li {
+		list-style: none;
+		padding: 30px 30px;
+	}
+
+	.nav-list li a {
+		text-decoration: none;
+		font-family: WorkSans;
+		color: black;
+	}
+
+	.nav-list li a:hover {
+		color: #044C14;
+	}
+
+	.rightnav {
+		width: 30%;
+		text-align: right;
+	}
+
+	.firstsection {
+		background-image: url("firstsec2.png");
+		background-color: green;
+		height: 400px;
+		font-family: NewAthletic;
+		-webkit-text-fill-color: transparent;
+		-webkit-text-stroke:1px white;
+		 align-items: center;
+	}
+		
+		.secondsection {
+		background-image: url("secondsec.png");
+		background-color: blue;
+		height: 400px;
+	}
+	
+	.firstsect_img {
+	height: 400px;
+	width: auto;
+	}
+
+	.box-main {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: black;
+		max-width: 80%;
+		margin: auto;
+		height: 80%;
+	}
+
+	.firsthalf {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.secondhalf {
+		width: 30%;
+	}
+
+	.secondhalf img {
+		width: 70%;
+		border: 4px solid white;
+		border-radius: 150px;
+		display: block;
+		margin: auto;
+	}
+
+	.text-big {
+		font-family: NewAthletic;
+		font-size: 95px;
+		text-align: center;
+		padding-top: 55px;
+	}
+	
+	.text-big2 {
+		font-family: NewAthletic;
+		font-size: 45px;
+		color: white;
+		text-align: center;
+		padding-top: 65px;
+	}
+	
+	.text-big3 {
+		font-family: NewAthletic;
+		font-size: 80px;
+		text-align: justify;
+		color: white;
+		padding-top: 50px;
+	}
+
+	.text-small {
+		font-family: WorkSans;
+		font-weight: 500;
+		font-size: 20px;
+		line-height: 41px;
+		text-align: center;
+		color: white;
+	}
+	
+	.text-small2 {
+		font-family: WorkSans;
+		font-weight: 400;
+		font-size: 36px;
+		line-height: 42px;
+		text-align: center;
+		color: white;
+		padding-bottom: 80px;
+		
+	}
+
+	.thirdsection {
+		background-color: #044C14;
+		height: 400px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: auto;
+
+	}
+
+	.section-Left {
+		flex-direction: row-reverse;
+	}
+
+	.golf {
+		padding: 0px 65px;
+	}
+
+	.mascot img {
+		width: 280px;
+		border-radius: 26px;
+		margin-top: 19px;
+		padding-top: 5px;
+	}
+
+	.center {
+		text-align: center;
+	}
+
+	.footer {
+	background-color: black;
+	height: 100px;
+	}
+	
+	.text-footer {
+		text-align: center;
+		padding: 30px 0;
+		padding-right: 800px;
+		font-family: WorkSans;
+		display: flex;
+		justify-content: center;
+		color: white;
+		margin: auto;
+	}
+</style>
